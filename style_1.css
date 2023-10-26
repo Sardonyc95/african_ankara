@@ -1,0 +1,108 @@
+body {
+  background: rgb(250, 251, 253);
+}
+h1 {
+  text-align: center;
+  color: rgb(97, 97, 219);
+  font-size: 3em;
+}
+span {
+  font-style: oblique;
+  color: rgb(240, 240, 88);
+}
+h2 {
+  text-align: center;
+  line-height: 1.9;
+  font-size: 19px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+form {
+  color: rgb(97, 97, 219);
+  text-align: center;
+}
+button {
+  display: block;
+  margin: 30px auto;
+  padding: 30px 20px;
+  background: linear-gradient(#e66465, #9198e5);
+  border: none;
+  border-radius: 30px;
+  font-weight: 100;
+  font-family: Georgia;
+  color: #ffff;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  transition: all 200ms ease-in-out;
+}
+button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  color: rgb(148, 219, 195);
+  background: #ffff;
+}
+
+.ankara-page {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px 60px;
+  border: 20px none #9198e5;
+  border-radius: 30px;
+  background: #fff;
+}
+.logo img {
+  max-width: 100px;
+  margin: 0;
+  box-shadow: none;
+}
+.img-gallery img {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  transition: all 200ms ease-in-out;
+}
+.img-gallery img:hover {
+  cursor: zoom-in;
+}
+.ankara-details {
+  text-align: justify;
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-size: 18px;
+  padding: 10px;
+  margin: 20px auto;
+}
+.read-on {
+  color: rgb(148, 219, 195);
+  text-decoration: none;
+  font-size: 15px;
+}
+.read-on:hover {
+  text-decoration: underline;
+  color: rgb(221, 221, 136);
+}
+.message-note {
+  text-align: justify;
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-size: 15px;
+  padding: 10px;
+  margin: 20px auto;
+}
+.message-note:hover {
+  color: rgb(148, 219, 195);
+  text-decoration: none;
+  font-size: 15px;
+}
+.contact-us {
+  /* border: 1px solid rgb(221, 221, 136); */
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/619/original/bg_1.jpg?1674793965);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact-text {
+  color: rgb(221, 221, 136);
+  text-align: center;
+}
